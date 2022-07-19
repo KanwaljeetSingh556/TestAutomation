@@ -54,7 +54,7 @@ public class Apple
 		{
 			Assert.assertEquals(ExpectedTittle,driver.getTitle());
 		String source = driver.getPageSource();
-		System.out.println(source);
+		//System.out.println(source);
 	//	driver.manage().timeouts().implicitlyWait(5000,TimeUnit.MILLISECONDS);
 		try {
 			Thread.sleep(2000);
